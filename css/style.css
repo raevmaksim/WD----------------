@@ -49,6 +49,7 @@ body {
 .text_p {  
   font-family: 'RobotoMRegular';
   color: var(--color-gray);
+  line-height: 157%;
 }
 /* Контайнер */
 .container{
@@ -118,7 +119,6 @@ body {
 
 .first-screen__text {
   width: 509px;
-  line-height: 157%;
   margin-bottom: 55px;
 }
 .first-screen__btn {
@@ -132,6 +132,21 @@ body {
   text-align: center;
   letter-spacing: 0.1em;
 }
+/* About */
+.about {
+  text-align: center;
+  padding-top: 119px;
+  padding-bottom: 93px;
+}
+.about__h2 {
+  padding-bottom: 41px;
+}
+.about__text {
+  max-width: 540px;
+  text-align: center;
+  margin: 0 auto;;
+}
+
 /* Медиа запросы для планшетов */
 @media screen and (max-width: 1280px) {
   .header__flex {
